@@ -1,0 +1,248 @@
+    body{
+        
+        background-color: rgb(0, 140, 140);
+        
+    }
+
+    img{
+
+        width: 80px;
+        height: 60px;
+        margin-top: 5px;
+        margin-left: 7px;
+    }
+
+
+    .Home{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #Hello {
+        color: white;
+        font-size: 160PX;
+        margin: 0;
+        display: flex;
+    }
+
+
+    #Inleiding{
+        color: rgb(0, 0, 0);
+        width: 50vw;
+        margin-top: 60PX;
+        display: flex;
+        flex-direction: column;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    #Inleiding p{
+        margin-bottom: 10px;
+        padding-bottom: 500px;
+    }
+
+    header{
+        background-color: rgb(255, 255, 255);
+        height: 68px;
+        width: 100%;
+        border-radius: 20px;
+
+    }
+
+    #top_buttons{
+        display: flex;
+        flex-direction: ;
+        justify-content: left;
+        gap: 10%;
+        margin-top: -55px; 
+        margin-left: 15%;
+        font-size: small;
+        color: black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    #top_buttons a{
+        font-size: 25px;
+        border-radius: 9px;     
+        font-weight: bold;
+        text-decoration: none;
+        color: inherit;
+        }
+
+    #top_buttons a:hover{
+
+    text-decoration: underline;
+    color: rgb(0, 140, 140);
+    }
+
+    #login-button{
+    /* position: absolute;
+    right: 6px;
+    margin-top: -55px; 
+    color: rgb(0, 0, 0); */
+
+    /* 
+
+
+
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none; */
+    margin-left: auto;
+    margin-right:20px;
+    }
+
+    #login-button:hover{
+        text-decoration: underline;
+        color: rgb(0, 140, 140);
+    }
+
+    #title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60PX;
+    font-size: 140PX;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+
+    .container{
+    display: flex;
+    flex-direction: column;
+    text-align:center ;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    background-color: white;    
+    margin: 0 auto;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 5%; 
+
+    }
+
+    input{
+    border-radius: 5px;
+    width: 60%;
+    margin: auto;
+
+
+    }
+
+    .gridbox{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));`
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        gap: 20px;
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .gridbox div{   
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: 10px 20px black;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        
+    }
+
+    .gridbox img {
+        width: 40%;
+        height:auto ; 
+    }
+
+    #Taghna img{
+        margin-top: 50%;
+    }
+
+    .gridbox h2{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: black ;
+    }
+
+    #gh-logo{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 30%
+    }
+
+.wit li{
+    text-align:center
+}
+
+#gh-loca{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: ;
+    border-radius: 10px;
+}
+
+.gh-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 60PX;
+    font-size: 70PX;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#fotoboek{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 100% ;
+margin-left: auto;
+margin-right: auto;
+width:fit-content ;
+height:auto ;
+}
+
+#fotoboek img{     
+    width: 25vw; 
+    height: auto; 
+    border: 5px solid white;
+    
+}
+
+footer{
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px 0;  
+    margin-top: 50px;  
+}
+
+.wit a{
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+.wit a:hover{
+     text-decoration:underline;
+     color: rgb(0, 140, 140);
+    
+}
+
+.werk-links{
+    color: white;
+    text-decoration: none;  
+}
+
+.werk-links:hover{
+    text-decoration: underline;
+}
+
+
